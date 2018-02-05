@@ -16,8 +16,7 @@ public class scrollDown extends base {
 		driver.findElementByXPath("//android.widget.Button[@text = 'ALLOW']").click();
 		driver.findElementById("com.offerup:id/categories").click();
 		
-		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Sports & outdoors\"))");
-		
+		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Arts & crafts\"))");
 	}
 
 }
