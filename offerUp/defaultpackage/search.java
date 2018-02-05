@@ -1,22 +1,33 @@
 package defaultpackage;
-
 import java.net.MalformedURLException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.AndroidKeyCode;
 
 public class search extends base {
 
-	public static void main(String[] args) throws MalformedURLException {
+	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		// TODO Auto-generated method stub
 			
 		AndroidDriver<AndroidElement> driver = Capabilities();
 		driver.findElementByXPath("//android.widget.Button[@text = 'ALLOW']").click();
+		Thread.sleep(3000);
 		
 		driver.findElementByXPath("//android.widget.TextView[@text = 'Search']").click();
-		driver.findElementByXPath("//android.widget.EditText[@text = 'Search']").sendKeys("cycle");
+		
+		WebElement ele = driver.findElementByXPath("//android.widget.EditText[@text = 'Search']");
+		ele.sendKeys("cycle");
+		ele.sendKeys(Keys.ENTER);
+		
+		/*
+		driver.pressKeyCode(AndroidKeyCode.ENTER);
+		driver.pressKeyCode(66);
+	
 		
 		driver.findElementByXPath("//android.widget.TextView[@text = 'cycle']").click();
 		
@@ -29,11 +40,13 @@ public class search extends base {
 		
 		driver.findElement(By.xpath("//android.widget.EditText[@text = 'ZipCode']")).sendKeys("07029");
 		
+		
 		driver.findElementByXPath("//android.widget.CheckedTextView[@text = 'Save']").click();
 		
 		driver.findElementById("com.offerup:id/sort_filter_apply").click();
 		
 		driver.swipe(165, 235, -2, 103, 0);
+		*/
 		
 	}
 
