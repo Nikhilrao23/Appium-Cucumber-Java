@@ -35,7 +35,6 @@ public class search extends base {
 		
 		driver.swipe(165, 235, -2, 103, 0);
 		
-	
 	}
 
 }
