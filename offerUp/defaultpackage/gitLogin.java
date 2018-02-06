@@ -37,7 +37,6 @@ public class gitLogin extends gitBase {
 			System.out.println("We have already logged in");
 		}
 		
-		
 	}
 
 }
