@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81" started-at="2018-02-07T23:39:49Z" finished-at="2018-02-07T23:39:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81" started-at="2018-02-07T23:39:49Z" finished-at="2018-02-07T23:39:49Z">
+      <class name="testngpack.annotations">
+        <test-method status="PASS" signature="Suite1()[pri:0, instance:testngpack.annotations@7c16905e]" name="Suite1" is-config="true" duration-ms="26" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Suite1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testngpack.annotations@7c16905e]" name="test1" is-config="true" duration-ms="1" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="Class1()[pri:0, instance:testngpack.annotations@7c16905e]" name="Class1" is-config="true" duration-ms="0" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class1 -->
+        <test-method status="PASS" signature="openingLogin()[pri:0, instance:testngpack.annotations@7c16905e]" name="openingLogin" is-config="true" duration-ms="1" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingLogin -->
+        <test-method status="PASS" signature="ClosingBrowser()[pri:0, instance:testngpack.annotations@7c16905e]" name="ClosingBrowser" duration-ms="9" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+        <test-method status="PASS" signature="closingLogin()[pri:0, instance:testngpack.annotations@7c16905e]" name="closingLogin" is-config="true" duration-ms="1" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingLogin -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:testngpack.annotations@7c16905e]" name="OpeningBrowser" duration-ms="4" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="openingLogin()[pri:0, instance:testngpack.annotations@7c16905e]" name="openingLogin" is-config="true" duration-ms="0" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingLogin -->
+        <test-method status="PASS" signature="closingLogin()[pri:0, instance:testngpack.annotations@7c16905e]" name="closingLogin" is-config="true" duration-ms="0" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingLogin -->
+        <test-method status="PASS" signature="Class2()[pri:0, instance:testngpack.annotations@7c16905e]" name="Class2" is-config="true" duration-ms="1" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class2 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testngpack.annotations@7c16905e]" name="test2" is-config="true" duration-ms="0" started-at="2018-02-07T18:39:49Z" finished-at="2018-02-07T18:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="Suite2()[pri:0, instance:testngpack.annotations@7c16905e]" name="Suite2" is-config="true" duration-ms="1" started-at="2018-02-07T18:39:54Z" finished-at="2018-02-07T18:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Suite2 -->
+      </class> <!-- testngpack.annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
