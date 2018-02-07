@@ -32,26 +32,22 @@ public class search extends base {
 	
 		driver.pressKeyCode(AndroidKeyCode.ENTER);
 		driver.pressKeyCode(66);
-	
-		
 		driver.findElementByXPath("//android.widget.TextView[@text = 'cycle']").click();
+		*/
 		
 		driver.findElementByXPath("//android.widget.TextView[@text = 'Filter']").click();
 		
 		driver.findElementByXPath("//android.widget.TextView[@text = 'Edit']").click();
 		
-		driver.findElements(By.xpath("//android.widget.EditText[@text = '94043']")).clear();
-		
-		
-		driver.findElement(By.xpath("//android.widget.EditText[@text = 'ZipCode']")).sendKeys("07029");
-		
+		MobileElement el = driver.findElementByXPath("//android.widget.EditText[@text = '94043']");
+		el.clear();
+		el.sendKeys("07029");
 		
 		driver.findElementByXPath("//android.widget.CheckedTextView[@text = 'Save']").click();
 		
 		driver.findElementById("com.offerup:id/sort_filter_apply").click();
 		
-		driver.swipe(165, 235, -2, 103, 0);
-		*/
+		// driver.swipe(165, 235, -2, 103, 0);
 		
 	}
 
