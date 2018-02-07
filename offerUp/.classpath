@@ -42,8 +42,8 @@
 	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/Selenium2/jar_files/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/Selenium2/jar_files/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/Selenium2/jar_files/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/Selenium2/java-client-5.0.0-BETA6-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/Selenium2/java-client-5.0.0-BETA6-javadoc.jar"/>
-	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/Selenium2/java-client-5.0.0-BETA6.jar"/>
+	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/beta7/java-client-5.0.0-BETA7-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/beta7/java-client-5.0.0-BETA7-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/nikhilraobalaji/Downloads/beta7/java-client-5.0.0-BETA7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
