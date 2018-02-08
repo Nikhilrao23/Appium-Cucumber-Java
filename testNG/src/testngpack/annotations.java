@@ -14,43 +14,43 @@ public class annotations {
 	
 	@Test
 	public void OpeningBrowser() {
-		System.out.println("Test 1");
+		System.out.println("3");
 	}
 	
 	@Test
 	public void ClosingBrowser() {
-		System.out.println("Test2");
+		System.out.println("2");
 	}
 	
 	@BeforeMethod
-	public void openingLogin() {
-		System.out.println("Login Page is opened");
+	public void a() {
+		System.out.println("Method");
 	}
 	
 	@AfterMethod
-	public void closingLogin() {
-		System.out.println("Login Page is closed");
+	public void b() {
+		System.out.println("Method");
 	}
 	
 	@BeforeTest
-	public void test1() {
-		System.out.println("Test1 Execution");
+	public void testinga() {
+		System.out.println("Test");
 	}
 	
 	@AfterTest 
-	public void test2() { 
-		System.out.println("Test1 Close");
+	public void testingb() { 
+		System.out.println("Test");
 		
 	}
 	
 	@BeforeClass
-	public void Class1() {
-		System.out.println("Class Execution");
+	public void Classa() {
+		System.out.println("Class");
 	}
 	
 	@AfterClass
-	public void Class2() { 
-		System.out.println("Class Close");
+	public void Classb() { 
+		System.out.println("Class");
 		
 	}
 

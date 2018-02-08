@@ -3,10 +3,9 @@
 <suite name = "Automation Test">
 <test name = "Smoke TestCases">
 
-	<classes>
-	<class name = "testngpack.Annot2" />
-	<class name = "testngpack.annotations" />
-	</classes>
+	<packages>
+	<package name = "testngpack" />
+	</packages>
 
 </test>
 </suite>

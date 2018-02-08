@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28" started-at="2018-02-08T00:49:56Z" finished-at="2018-02-08T00:49:56Z">
+  <suite name="Automation Test" duration-ms="46" started-at="2018-02-08T01:04:55Z" finished-at="2018-02-08T01:04:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28" started-at="2018-02-08T00:49:56Z" finished-at="2018-02-08T00:49:56Z">
+    <test name="Smoke TestCases" duration-ms="46" started-at="2018-02-08T01:04:55Z" finished-at="2018-02-08T01:04:55Z">
       <class name="testngpack.Annot2">
-        <test-method status="PASS" signature="installSoftware()[pri:0, instance:testngpack.Annot2@5419f379]" name="installSoftware" is-config="true" duration-ms="14" started-at="2018-02-07T19:49:56Z" finished-at="2018-02-07T19:49:56Z">
+        <test-method status="PASS" signature="installSoftware()[pri:0, instance:testngpack.Annot2@4cc0edeb]" name="installSoftware" is-config="true" duration-ms="13" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- installSoftware -->
-        <test-method status="PASS" signature="runTest()[pri:0, instance:testngpack.Annot2@5419f379]" name="runTest" duration-ms="5" started-at="2018-02-07T19:49:56Z" finished-at="2018-02-07T19:49:56Z">
+        <test-method status="PASS" signature="runTest()[pri:0, instance:testngpack.Annot2@4cc0edeb]" name="runTest" duration-ms="6" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="deinstallSoftware()[pri:0, instance:testngpack.Annot2@5419f379]" name="deinstallSoftware" is-config="true" duration-ms="2" started-at="2018-02-07T19:50:02Z" finished-at="2018-02-07T19:50:02Z">
+        <test-method status="PASS" signature="deinstallSoftware()[pri:0, instance:testngpack.Annot2@4cc0edeb]" name="deinstallSoftware" is-config="true" duration-ms="1" started-at="2018-02-07T20:05:01Z" finished-at="2018-02-07T20:05:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deinstallSoftware -->
       </class> <!-- testngpack.Annot2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testngpack.annotations">
+        <test-method status="PASS" signature="testinga()[pri:0, instance:testngpack.annotations@457e2f02]" name="testinga" is-config="true" duration-ms="0" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinga -->
+        <test-method status="PASS" signature="Classa()[pri:0, instance:testngpack.annotations@457e2f02]" name="Classa" is-config="true" duration-ms="0" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Classa -->
+        <test-method status="PASS" signature="a()[pri:0, instance:testngpack.annotations@457e2f02]" name="a" is-config="true" duration-ms="1" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="ClosingBrowser()[pri:0, instance:testngpack.annotations@457e2f02]" name="ClosingBrowser" duration-ms="2" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+        <test-method status="PASS" signature="b()[pri:0, instance:testngpack.annotations@457e2f02]" name="b" is-config="true" duration-ms="0" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="a()[pri:0, instance:testngpack.annotations@457e2f02]" name="a" is-config="true" duration-ms="0" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:testngpack.annotations@457e2f02]" name="OpeningBrowser" duration-ms="2" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="b()[pri:0, instance:testngpack.annotations@457e2f02]" name="b" is-config="true" duration-ms="1" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="Classb()[pri:0, instance:testngpack.annotations@457e2f02]" name="Classb" is-config="true" duration-ms="1" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Classb -->
+        <test-method status="PASS" signature="testingb()[pri:0, instance:testngpack.annotations@457e2f02]" name="testingb" is-config="true" duration-ms="2" started-at="2018-02-07T20:04:55Z" finished-at="2018-02-07T20:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingb -->
+      </class> <!-- testngpack.annotations -->
+    </test> <!-- Smoke TestCases -->
+  </suite> <!-- Automation Test -->
 </testng-results>
