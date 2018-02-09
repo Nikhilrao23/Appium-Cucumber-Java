@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloApp.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloApp_main.iml" group="HelloApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloApp_test.iml" group="HelloApp" />
+    </modules>
+  </component>
+</project>
