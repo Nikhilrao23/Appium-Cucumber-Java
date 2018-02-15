@@ -8,14 +8,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.android.AndroidKeyCode;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class setting {
-
-	public static void main(String[] args) throws MalformedURLException, InterruptedException {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) throws MalformedURLException {
 		
 		DesiredCapabilities rb = new DesiredCapabilities();
 		
@@ -27,13 +24,12 @@ public class setting {
 		AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),rb);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
+		driver.findElementByXPath("android.widget.LinearLayout[@index = '4']").click();
 		
-		driver.findElementByXPath("//android.widget.LinearLayout[@index = '4']").click();
+		String remo = driver.findElementByXPath("//android.widget.TextView[@text = \"Connected\"]/preceding::android.widget.TextView[1]").getText();
 		
-		String sb = driver.findElementByXPath("//android.widget.TextView[@text= \"Connected\"]/preceding::android.widget.TextView[1]").getText();
+		System.out.println("Connected to: " +remo);
 		
-		System.out.println("Connected to: " +sb);
+		
 	}
-
-
 }
