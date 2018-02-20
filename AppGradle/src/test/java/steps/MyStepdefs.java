@@ -54,6 +54,7 @@ public class MyStepdefs {
     public void iSeeMyExistingGoogleAccount(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         driver.findElementById("com.google.android.gms:id/account_display_name").click();
+        Thread.sleep(5000);
         System.out.println(driver.findElementByXPath("//android.widget.TextView[@index = '4']"));
     }
 }
