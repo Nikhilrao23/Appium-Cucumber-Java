@@ -24,6 +24,8 @@ public class MyStepdefs {
         cb.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         cb.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.offerup");
         cb.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.offerup.android.search.SearchActivity");
+        //cb.setCapability("fullReset", true);
+        //cb.setCapability("newCommandTimeout", 120);
 
         driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), cb);
 
@@ -57,4 +59,6 @@ public class MyStepdefs {
         Thread.sleep(5000);
         System.out.println(driver.findElementByXPath("//android.widget.TextView[@index = '4']"));
     }
-}
+
+
+    }
