@@ -46,33 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sample.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sample.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/Sample.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyStepdefs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iOSStepDef.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/iOSStepDef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+            <state relative-caret-position="975">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -773,21 +761,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__iOS - 2018.02.20 at 12h 13m 27s.xml">
-      <configuration name="Feature: iOS" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__iOS - 2018.02.20 at 12h 14m 07s.xml">
-      <configuration name="Feature: iOS" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.19 at 23h 09m 16s.xml">
-      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.19 at 23h 10m 56s.xml">
-      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.19 at 23h 12m 35s.xml">
-      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 19h 40m 18s.xml">
       <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -798,6 +771,21 @@
       <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 19h 45m 18s.xml">
+      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 20h 30m 06s.xml">
+      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 20h 33m 57s.xml">
+      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 20h 35m 29s.xml">
+      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 20h 38m 47s.xml">
+      <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login_Flow_on_app - 2018.02.20 at 20h 41m 37s.xml">
       <configuration name="Scenario: Login Flow on app" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Open_OfferUp_App - 2018.02.20 at 12h 12m 53s.xml">
@@ -894,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/Sample.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/iOSStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -914,11 +894,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="975">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Sample.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

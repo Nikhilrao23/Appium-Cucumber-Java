@@ -4,6 +4,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -37,6 +38,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Click on Allow Button");
         driver.findElementByXPath("//android.widget.Button[@text = 'ALLOW']").click();
+        Thread.sleep(3000);
     }
 
     @And("^Click on Account on Bottom Navigational Panel$")
@@ -52,13 +54,27 @@ public class MyStepdefs {
         driver.findElementById("com.offerup:id/google_signin_button").click();
     }
 
-    @Then("^I see my existing google account \"([^\"]*)\"$")
+    @And("^I see my existing google account \"([^\"]*)\"$")
     public void iSeeMyExistingGoogleAccount(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         driver.findElementById("com.google.android.gms:id/account_display_name").click();
         Thread.sleep(5000);
         System.out.println(driver.findElementByXPath("//android.widget.TextView[@index = '4']"));
+        
     }
 
 
+    @Then("^Work on Drag-Drop / Swipe$")
+    public void workOnDragDropSwipe() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        driver.findElementById("com.offerup:id/nav_home").click();
+        Thread.sleep(2000);
+        driver.findElementById("com.offerup:id/filter_label").click();
+        TouchAction beep = new TouchAction(driver);
+        beep.press(driver.findElementByXPath("//android.widget.TextView[@text = '20']")).moveTo(driver.findElementByXPath("//android.widget.TextView[@text = '30']")).release().perform();
+        System.out.println("Swiping From 20 to 30 Miles");
+
+        driver.findElementById("com.offerup:id/sort_filter_apply").click();
+
     }
+}
