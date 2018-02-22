@@ -11,7 +11,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -43,8 +42,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Click on Allow Button");
         driver.findElementByXPath("//android.widget.Button[@text = 'ALLOW']").click();
-        WebDriverWait kill = new WebDriverWait(driver, 10);
-        kill.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.Button[@text = 'ALLOW']")));
+        Thread.sleep(3000);
     }
 
     @And("^Click on Account on Bottom Navigational Panel$")
@@ -63,7 +61,9 @@ public class MyStepdefs {
     @And("^I see my existing google account \"([^\"]*)\"$")
     public void iSeeMyExistingGoogleAccount(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        driver.findElementById("com.google.android.gms:id/account_display_name").click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.google.android.gms:id/account_display_name"))).click();
+        //driver.findElementById("com.google.android.gms:id/account_display_name").click();
         Thread.sleep(5000);
         System.out.println(driver.findElementByXPath("//android.widget.TextView[@index = '4']"));
         
