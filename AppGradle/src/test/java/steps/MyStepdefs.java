@@ -7,9 +7,14 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -38,7 +43,8 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Click on Allow Button");
         driver.findElementByXPath("//android.widget.Button[@text = 'ALLOW']").click();
-        Thread.sleep(3000);
+        WebDriverWait kill = new WebDriverWait(driver, 10);
+        kill.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.Button[@text = 'ALLOW']")));
     }
 
     @And("^Click on Account on Bottom Navigational Panel$")
