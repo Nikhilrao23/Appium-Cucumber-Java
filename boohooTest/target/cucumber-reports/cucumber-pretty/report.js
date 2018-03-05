@@ -30,22 +30,46 @@ formatter.step({
   "name": "I select Location services option",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 7,
+  "name": "Click on Hamburger Menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Sign In with Existing Account",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "Onboard.iLaunchBoohooApp()"
 });
 formatter.result({
-  "duration": 10883814322,
+  "duration": 13922446715,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboard.iSelectLocationServicesOption()"
 });
 formatter.result({
-  "duration": 3502367278,
+  "duration": 3776501906,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Onboard.clickOnHamburgerMenu()"
+});
+formatter.result({
+  "duration": 1423211531,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Onboard.signInWithExistingAccount()"
+});
+formatter.result({
+  "duration": 21176792370,
   "status": "passed"
 });
 formatter.after({
-  "duration": 166541,
+  "duration": 160549,
   "status": "passed"
 });
 });

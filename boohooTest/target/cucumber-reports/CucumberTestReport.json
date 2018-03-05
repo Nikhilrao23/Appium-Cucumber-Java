@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 166541,
+              "duration": 160549,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10883814322,
+              "duration": 13922446715,
               "status": "passed"
             },
             "line": 5,
@@ -35,13 +35,37 @@
           },
           {
             "result": {
-              "duration": 3502367278,
+              "duration": 3776501906,
               "status": "passed"
             },
             "line": 6,
             "name": "I select Location services option",
             "match": {
               "location": "Onboard.iSelectLocationServicesOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1423211531,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Hamburger Menu",
+            "match": {
+              "location": "Onboard.clickOnHamburgerMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21176792370,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sign In with Existing Account",
+            "match": {
+              "location": "Onboard.signInWithExistingAccount()"
             },
             "keyword": "Then "
           }
