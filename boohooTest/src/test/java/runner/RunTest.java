@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "src/test/java/features",
         glue = {"steps"},
-        tags = {"@On-boardingScreen"},
+        tags = {"@boohoo"},
         format = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
