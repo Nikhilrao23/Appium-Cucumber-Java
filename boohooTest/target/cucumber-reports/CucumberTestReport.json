@@ -1,0 +1,63 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "On-boarding screen via the app and Location Services",
+        "description": "",
+        "id": "boohoo-application;on-boarding-screen-via-the-app-and-location-services",
+        "after": [
+          {
+            "result": {
+              "duration": 166541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10883814322,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Boohoo App",
+            "match": {
+              "location": "Onboard.iLaunchBoohooApp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3502367278,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select Location services option",
+            "match": {
+              "location": "Onboard.iSelectLocationServicesOption()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Boohoo Application",
+    "description": "",
+    "id": "boohoo-application",
+    "keyword": "Feature",
+    "uri": "Onboard.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@On-boardingScreen"
+      }
+    ]
+  }
+]
