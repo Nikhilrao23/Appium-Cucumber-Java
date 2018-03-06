@@ -5,6 +5,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -18,6 +19,7 @@ import org.testng.Assert;
 import org.openqa.selenium.WebElement;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+import io.appium.java_client.android.AndroidDriver;
 
     public class Onboard {
 
@@ -169,5 +171,14 @@ import java.util.concurrent.TimeUnit;
             MobileElement rom = (MobileElement) driver.findElementsById("com.poqstudio.app.platform.boohoo:id/checkBox").get(1);
             rom.click();
             driver.findElementByXPath("//android.widget.Button[@text = 'APPLY']").click();
+            Thread.sleep(3000);
         }
+
+        @And("^Click on (\\d+) Pack T Shirts$")
+        public void clickOnPackTShirts(int arg0) throws Throwable {
+            // Write code here that turns the phrase above into concrete actions
+            //driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"3 Pack T Shirts\")")).click();
+            
+        }
+
     }

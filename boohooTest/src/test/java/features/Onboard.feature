@@ -17,3 +17,4 @@ Feature: Boohoo Application
     And Click on Search Icon
     And Enter Shirts as Search Text and Click Search Icon
     Then Tap on Refine and select Men
+    And Click on 3 Pack T Shirts
