@@ -11,6 +11,7 @@ Feature: Boohoo Application
     And User is redirected to Notifications Screen
     Then Click on PN To Search
     And Click the Back button
-    Then Check Size Guide Page
-    And Check Contact Us page
-    Then Check Customer Service page
+    Then Navigate to Side Navigational Panel
+    And Move to Shop page
+    Then Click on Men Category
+

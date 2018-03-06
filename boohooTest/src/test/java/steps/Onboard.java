@@ -7,6 +7,8 @@ import cucumber.api.java.en.When;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidKeyCode;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.By;
@@ -14,7 +16,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.openqa.selenium.WebElement;
-
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -115,59 +116,29 @@ import java.util.concurrent.TimeUnit;
         @And("^Click the Back button$")
         public void clickTheBackButton() throws Throwable {
             // Write code here that turns the phrase above into concrete actions
-            driver.findElementByXPath("//android.widget.ImageButton[@text = 'Navigate up']").click();
+            driver.navigate().back();
+            driver.navigate().back();
         }
 
 
-        @Then("^Check Size Guide Page$")
-        public void checkSizeGuidePage() throws Throwable {
+        @Then("^Navigate to Side Navigational Panel$")
+        public void navigateToSideNavigationalPanel() throws Throwable {
             // Write code here that turns the phrase above into concrete actions
-            driver.findElementById("com.poqstudio.app.platform.boohoo:id/sizeGuideTextView").click();
-            Thread.sleep(3000);
-
-            WebElement guide = driver.findElementByXPath("//android.view.View[@text = 'SIZE GUIDE']");
-
-            if (guide.isDisplayed()) {
-                System.out.println("Size Guide Page is loading");
-            }
-            else {
-                System.out.println("Size Guide page is not loading");
-            }
-
-            driver.findElementByXPath("//android.widget.ImageButton[@text = 'Navigate up']").click();
+            TouchAction action = new TouchAction(driver);
+            action.tap(77,133).perform();
         }
 
-        @And("^Check Contact Us page$")
-        public void checkContactUsPage() throws Throwable {
+        @And("^Move to Shop page$")
+        public void moveToShopPage() throws Throwable {
             // Write code here that turns the phrase above into concrete actions
-            driver.findElementById("com.poqstudio.app.platform.boohoo:id/contactUsTextView").click();
+            driver.findElementByXPath("//android.widget.TextView[@text = 'Shop']").click();
             Thread.sleep(3000);
-            WebElement contactus = driver.findElementByXPath("//android.widget.TextView[@text = 'Contact Us']");
-
-            if(contactus.isDisplayed()){
-                System.out.println("Contact us Page is loaded fine");
-            }
-            else{
-                System.out.println("Contact Us page is not loading");
-            }
-
-            driver.findElementByXPath("//android.widget.ImageButton[@text = 'Navigate up']").click();
         }
 
-        @Then("^Check Customer Service page$")
-        public void checkCustomerServicePage() throws Throwable {
+        @Then("^Click on Men Category$")
+        public void clickOnMenCategory() throws Throwable {
             // Write code here that turns the phrase above into concrete actions
-            driver.findElementByXPath("//android.widget.TextView[@text = 'CUSTOMER SERVICE']").click();
-            Thread.sleep(3000);
+            driver.findElementByXPath("//android.widget.LinearLayout[@index = '3']").click();
 
-            WebElement service = driver.findElementByXPath("//android.widget.TextView[@text = 'Customer Service']");
-
-            if(service.isDisplayed()) {
-                System.out.println("Customer Service page is loading fine");
-            }
-            else{
-                System.out.println("Customer Service page is not loaded");
-            }
-            driver.findElementByXPath("//android.widget.ImageButton[@text = 'Navigate up']").click();
         }
     }
