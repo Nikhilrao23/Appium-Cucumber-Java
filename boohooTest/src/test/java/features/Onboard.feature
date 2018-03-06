@@ -14,4 +14,6 @@ Feature: Boohoo Application
     Then Navigate to Side Navigational Panel
     And Move to Shop page
     Then Click on Men Category
-
+    And Click on Search Icon
+    And Enter Shirts as Search Text and Click Search Icon
+    Then Tap on Refine and select Men

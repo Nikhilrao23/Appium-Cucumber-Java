@@ -126,6 +126,7 @@ import java.util.concurrent.TimeUnit;
             // Write code here that turns the phrase above into concrete actions
             TouchAction action = new TouchAction(driver);
             action.tap(77,133).perform();
+            Thread.sleep(3000);
         }
 
         @And("^Move to Shop page$")
@@ -138,7 +139,35 @@ import java.util.concurrent.TimeUnit;
         @Then("^Click on Men Category$")
         public void clickOnMenCategory() throws Throwable {
             // Write code here that turns the phrase above into concrete actions
+            Thread.sleep(2000);
             driver.findElementByXPath("//android.widget.LinearLayout[@index = '3']").click();
 
+        }
+
+        @And("^Click on Search Icon$")
+        public void clickOnSearchIcon() throws Throwable {
+            // Write code here that turns the phrase above into concrete actions
+            driver.findElementById("com.poqstudio.app.platform.boohoo:id/searchItem").click();
+            System.out.println("User has Clicked Search Icon");
+        }
+
+        @And("^Enter Shirts as Search Text and Click Search Icon$")
+        public void enterShirtsAsSearchTextAndClickSearchIcon() throws Throwable {
+            // Write code here that turns the phrase above into concrete actions
+            driver.findElementById("com.poqstudio.app.platform.boohoo:id/search_src_text").sendKeys("Shirts");
+            TouchAction t = new TouchAction(driver);
+
+            t.tap(996,1691).perform();
+        }
+
+        @Then("^Tap on Refine and select Men$")
+        public void tapOnRefineAndSelectMen() throws Throwable {
+            // Write code here that turns the phrase above into concrete actions
+            driver.findElementById("com.poqstudio.app.platform.boohoo:id/refine").click();
+            Thread.sleep(2000);
+            driver.findElementByXPath("//android.widget.TextView[@text = 'GENDER']").click();
+            MobileElement rom = (MobileElement) driver.findElementsById("com.poqstudio.app.platform.boohoo:id/checkBox").get(1);
+            rom.click();
+            driver.findElementByXPath("//android.widget.Button[@text = 'APPLY']").click();
         }
     }
