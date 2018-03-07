@@ -177,8 +177,8 @@ import io.appium.java_client.android.AndroidDriver;
         @And("^Click on (\\d+) Pack T Shirts$")
         public void clickOnPackTShirts(int arg0) throws Throwable {
             // Write code here that turns the phrase above into concrete actions
-            //driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"3 Pack T Shirts\")")).click();
-            
+            driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"3 Pack T Shirts\")"));
+
         }
 
     }
