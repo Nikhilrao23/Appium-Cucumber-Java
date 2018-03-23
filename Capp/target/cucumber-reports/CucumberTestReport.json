@@ -1,0 +1,273 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "On-boarding screen via the app and Location Services",
+        "description": "",
+        "id": "coreapp-application;on-boarding-screen-via-the-app-and-location-services",
+        "after": [
+          {
+            "result": {
+              "duration": 589882,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11595291210,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch Core App",
+            "match": {
+              "location": "Onboard.iLaunchCoreApp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3406901419,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select Location services option",
+            "match": {
+              "location": "Onboard.iSelectLocationServicesOption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1725380115,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Hamburger Menu",
+            "match": {
+              "location": "Onboard.clickOnHamburgerMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16729748989,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Sign In with Existing Account",
+            "match": {
+              "location": "Onboard.signInWithExistingAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2904938600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bell Icon",
+            "match": {
+              "location": "Onboard.iClickOnBellIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77837,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is redirected to Notifications Screen",
+            "match": {
+              "location": "Onboard.userIsRedirectedToNotificationsScreen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9701869330,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on PN To Search",
+            "match": {
+              "location": "Onboard.clickOnPNToSearch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 926180440,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click the Back button",
+            "match": {
+              "location": "Onboard.clickTheBackButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3131608429,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Navigate to Side Navigational Panel",
+            "match": {
+              "location": "Onboard.navigateToSideNavigationalPanel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3416352148,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Move to Shop page",
+            "match": {
+              "location": "Onboard.moveToShopPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2955387786,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Men Category",
+            "match": {
+              "location": "Onboard.clickOnMenCategory()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 853430976,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Search Icon",
+            "match": {
+              "location": "Onboard.clickOnSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8814200541,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter Shoe as Search Text and Click Search Icon",
+            "match": {
+              "location": "Onboard.enterShirtsAsSearchTextAndClickSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7512752954,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Tap on Refine and select Men",
+            "match": {
+              "location": "Onboard.tapOnRefineAndSelectMen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2920901653,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on 3 Pack T Shirts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 9
+                }
+              ],
+              "location": "Onboard.clickOnPackTShirts(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2915003741,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Select Color and Size",
+            "match": {
+              "location": "Onboard.selectColorAndSize()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8379639552,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Tapping on Clothing Category",
+            "match": {
+              "location": "Onboard.tappingOnClothingCategory()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7946425106,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Select Size and Add to bag",
+            "match": {
+              "location": "Onboard.selectSizeAndAddToBag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595775268,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open Cart from Top Right Corner",
+            "match": {
+              "location": "Onboard.openCartFromTopRightCorner()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CoreApp Application",
+    "description": "",
+    "id": "coreapp-application",
+    "keyword": "Feature",
+    "uri": "Onboard.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@first"
+      }
+    ]
+  }
+]
